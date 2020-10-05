@@ -1,0 +1,146 @@
+[
+    {
+        "id": 4990,
+        "title": "ESEA Premier Season 35 North America",
+        "tier": 2,
+        "start": "2020-08-30",
+        "end": "2020-12-05",
+        "short_title": "ESEA"
+    },
+    {
+        "id": 4991,
+        "title": "ESEA Premier Season 35 Europe",
+        "tier": 2,
+        "start": "2020-08-30",
+        "end": "2020-12-06",
+        "short_title": "ESEA"
+    },
+    {
+        "id": 4992,
+        "title": "ESEA Premier Season 35 Australia",
+        "tier": 2,
+        "start": "2020-08-30",
+        "end": "2020-12-06",
+        "short_title": "ESEA"
+    },
+    {
+        "id": 5113,
+        "title": "ESL Pro League 12 Europe",
+        "tier": 1,
+        "start": "2020-08-31",
+        "end": "2020-10-04",
+        "short_title": "ESL"
+    },
+    {
+        "id": 5111,
+        "title": "ESL Masters Spain Season 8",
+        "tier": 3,
+        "start": "2020-09-01",
+        "end": null,
+        "short_title": "ESL S"
+    },
+    {
+        "id": 5194,
+        "title": "2020 ESL Premiership Autumn",
+        "tier": 3,
+        "start": "2020-09-06",
+        "end": "2020-11-07",
+        "short_title": "ESLUK"
+    },
+    {
+        "id": 5112,
+        "title": "2020 ESL Mistrzostwa Polski Fall",
+        "tier": 3,
+        "start": "2020-09-06",
+        "end": "2020-11-22",
+        "short_title": "ESL MP"
+    },
+    {
+        "id": 5207,
+        "title": " 2020 ESL Meisterschaft Autumn",
+        "tier": 3,
+        "start": "2020-09-14",
+        "end": null,
+        "short_title": "ESL GER"
+    },
+    {
+        "id": 5116,
+        "title": "ESL Pro League 12 Oceania",
+        "tier": 2,
+        "start": "2020-09-20",
+        "end": "2020-10-06",
+        "short_title": "ESL"
+    },
+    {
+        "id": 5117,
+        "title": "ESL Pro League 12 Asia",
+        "tier": 2,
+        "start": "2020-09-20",
+        "end": "2020-10-06",
+        "short_title": "ESL"
+    },
+    {
+        "id": 5115,
+        "title": "ESL Pro League 12 South America",
+        "tier": 2,
+        "start": "2020-09-21",
+        "end": "2020-09-29",
+        "short_title": "ESL"
+    },
+    {
+        "id": 5056,
+        "title": "2020 IEM XV New York Online NA",
+        "tier": 1,
+        "start": "2020-09-04",
+        "end": null,
+        "short_title": "IEM"
+    },
+    {
+        "id": 5057,
+        "title": "2020 IEM XV New York Online CIS",
+        "tier": 2,
+        "start": "2020-09-04",
+        "end": null,
+        "short_title": "IEM"
+    },
+    {
+        "id": 5055,
+        "title": "2020 IEM XV New York Online EU",
+        "tier": 1,
+        "start": "2020-09-08",
+        "end": null,
+        "short_title": "IEM"
+    },
+    {
+        "id": 5177,
+        "title": "2020 IEM XV Beijing Online ASIA",
+        "tier": 2,
+        "start": "2020-11-05",
+        "end": "2020-11-21",
+        "short_title": "IEM"
+    },
+    {
+        "id": 5176,
+        "title": "2020 IEM XV Beijing Online OCE",
+        "tier": 2,
+        "start": "2020-11-05",
+        "end": "2020-11-21",
+        "short_title": "IEM"
+    },
+    {
+        "id": 5174,
+        "title": "2020 IEM XV Beijing Online EU",
+        "tier": 1,
+        "start": "2020-11-06",
+        "end": "2020-11-22",
+        "short_title": "IEM"
+    },
+    {
+        "id": 5175,
+        "title": "2020 IEM XV Beijing Online NA",
+        "tier": 1,
+        "start": "2020-11-06",
+        "end": "2020-11-22",
+        "short_title": "IEM"
+    }
+]

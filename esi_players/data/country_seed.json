@@ -1,0 +1,32 @@
+[
+    {
+        "id": 94,
+        "name": "European Union",
+        "short_name": "EU",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/European-Union.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/European-Union.png"
+        },
+        "region": 1
+    },
+    {
+        "id": 204,
+        "name": "Portugal",
+        "short_name": "PT",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Portugal.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Portugal.png"
+        },
+        "region": 1
+    },
+    {
+        "id": 263,
+        "name": "United Kingdom",
+        "short_name": "GB",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/United-Kingdom.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/United-Kingdom.png"
+        },
+        "region": 1
+    }
+]

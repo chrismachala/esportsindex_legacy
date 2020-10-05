@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Europe",
+        "short_name": "EU"
+    },
+    {
+        "id": 2,
+        "name": "North America",
+        "short_name": "NA"
+    },
+    {
+        "id": 10,
+        "name": "Oceania",
+        "short_name": "OCE"
+    },
+    {
+        "id": 4,
+        "name": "South America",
+        "short_name": "SA"
+    },
+    {
+        "id": 8,
+        "name": "East Asia",
+        "short_name": "EA"
+    },
+    {
+        "id": 7,
+        "name": "Western Asia",
+        "short_name": "WA"
+    },
+    {
+        "id": 9,
+        "name": "South East Asia",
+        "short_name": "SEA"
+    }
+]

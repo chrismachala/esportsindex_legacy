@@ -1,0 +1,262 @@
+[
+    {
+        "id": 203,
+        "name": "Poland",
+        "short_name": "PL",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Poland.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Poland.png"
+        },
+        "region": 1
+    },
+    {
+        "id": 209,
+        "name": "Romania",
+        "short_name": "RO",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Romania.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Romania.png"
+        },
+        "region": 1
+    },
+    {
+        "id": 261,
+        "name": "Ukraine",
+        "short_name": "UA",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Ukraine.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Ukraine.png"
+        },
+        "region": 1
+    },
+    {
+        "id": 210,
+        "name": "Russia",
+        "short_name": "RU",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Russia.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Russia.png"
+        },
+        "region": 1
+    },
+    {
+        "id": 265,
+        "name": "United States",
+        "short_name": "US",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/United-States.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/United-States.png"
+        },
+        "region": 2
+    },
+    {
+        "id": 59,
+        "name": "Canada",
+        "short_name": "CA",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Canada.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Canada.png"
+        },
+        "region": 2
+    },
+    {
+        "id": 33,
+        "name": "Australia",
+        "short_name": "AU",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Australia.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Australia.png"
+        },
+        "region": 10
+    },
+    {
+        "id": 50,
+        "name": "Brazil",
+        "short_name": "BR",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Brazil.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Brazil.png"
+        },
+        "region": 4
+    },
+    {
+        "id": 182,
+        "name": "New Zealand",
+        "short_name": "NZ",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/New-Zealand.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/New-Zealand.png"
+        },
+        "region": 10
+    },
+    {
+        "id": 66,
+        "name": "China",
+        "short_name": "CN",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/China.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/China.png"
+        },
+        "region": 8
+    },
+    {
+        "id": 148,
+        "name": "Lithuania",
+        "short_name": "LT",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Lithuania.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Lithuania.png"
+        },
+        "region": 1
+    },
+    {
+        "id": 135,
+        "name": "Kazakhstan",
+        "short_name": "KZ",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Kazakhstan.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Kazakhstan.png"
+        },
+        "region": 7
+    },
+    {
+        "id": 124,
+        "name": "Indonesia",
+        "short_name": "ID",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Indonesia.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Indonesia.png"
+        },
+        "region": 9
+    },
+    {
+        "id": 154,
+        "name": "Malaysia",
+        "short_name": "MY",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Malaysia.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Malaysia.png"
+        },
+        "region": 9
+    },
+    {
+        "id": 249,
+        "name": "Thailand",
+        "short_name": "TH",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Thailand.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Thailand.png"
+        },
+        "region": 9
+    },
+    {
+        "id": 30,
+        "name": "Argentina",
+        "short_name": "AR",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Argentina.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Argentina.png"
+        },
+        "region": 4
+    },
+    {
+        "id": 81,
+        "name": "Denmark",
+        "short_name": "DK",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Denmark.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Denmark.png"
+        },
+        "region": 1
+    },
+    {
+        "id": 243,
+        "name": "Sweden",
+        "short_name": "SE",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Sweden.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Sweden.png"
+        },
+        "region": 1
+    },
+    {
+        "id": 98,
+        "name": "Finland",
+        "short_name": "FI",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Finland.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Finland.png"
+        },
+        "region": 1
+    },
+    {
+        "id": 99,
+        "name": "France",
+        "short_name": "FR",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/France.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/France.png"
+        },
+        "region": 1
+    },
+    {
+        "id": 228,
+        "name": "Slovakia",
+        "short_name": "SK",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Slovakia.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Slovakia.png"
+        },
+        "region": 1
+    },
+    {
+        "id": 105,
+        "name": "Germany",
+        "short_name": "DE",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Germany.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Germany.png"
+        },
+        "region": 1
+    },
+    {
+        "id": 191,
+        "name": "Norway",
+        "short_name": "NO",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Norway.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Norway.png"
+        },
+        "region": 1
+    },
+    {
+        "id": 238,
+        "name": "Spain",
+        "short_name": "ES",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Spain.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Spain.png"
+        },
+        "region": 1
+    },
+    {
+        "id": 54,
+        "name": "Bulgaria",
+        "short_name": "BG",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Bulgaria.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Bulgaria.png"
+        },
+        "region": 1
+    },
+    {
+        "id": 92,
+        "name": "Estonia",
+        "short_name": "EE",
+        "images": {
+            "default": "https://img.abiosgaming.com/flags/Estonia.png",
+            "thumbnail": "https://img.abiosgaming.com/flags/thumbnails/Estonia.png"
+        },
+        "region": 1
+    }
+]

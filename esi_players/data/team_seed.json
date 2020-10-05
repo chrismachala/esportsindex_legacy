@@ -1,0 +1,629 @@
+[
+    {
+        "name": "Sprout ",
+        "id": 38158,
+        "short_name": "Sprout ",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Sprout-Logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Sprout-Logo.png",
+            "fallback": false
+        },
+        "country": 105
+    },
+    {
+        "name": "Wisla Krakow",
+        "id": 58209,
+        "short_name": "WK",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Wisla-Krakow-teamlogo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Wisla-Krakow-teamlogo.png",
+            "fallback": false
+        },
+        "country": 203
+    },
+    {
+        "name": "PACT",
+        "id": 29318,
+        "short_name": "PACT",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/PACT-Teamlogo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/PACT-Teamlogo.png",
+            "fallback": false
+        },
+        "country": 203
+    },
+    {
+        "name": "Nexus Gaming",
+        "id": 24089,
+        "short_name": "Nexus",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Nexus-Gaming-teamlogo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Nexus-Gaming-teamlogo.png",
+            "fallback": false
+        },
+        "country": 209
+    },
+    {
+        "name": "Hellraisers",
+        "id": 873,
+        "short_name": "HR",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/hellraisers.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/hellraisers.png",
+            "fallback": false
+        },
+        "country": 261
+    },
+    {
+        "name": "Team Spirit",
+        "id": 18708,
+        "short_name": "Spirit",
+        "images": {
+            "default": "https://img.abiosgaming.com/casters/team-spirit-new-logo-200-abios.png",
+            "thumbnail": "https://img.abiosgaming.com/casters/thumbnails/team-spirit-new-logo-200-abios.png",
+            "fallback": false
+        },
+        "country": 210
+    },
+    {
+        "name": "Espada",
+        "id": 54371,
+        "short_name": "Esp",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Espada-Logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Espada-Logo.png",
+            "fallback": false
+        },
+        "country": 210
+    },
+    {
+        "name": "Team Liquid",
+        "id": 2484,
+        "short_name": "Liquid",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Teamliquid-new.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Teamliquid-new.png",
+            "fallback": false
+        },
+        "country": 265
+    },
+    {
+        "name": "Evil Geniuses",
+        "id": 57593,
+        "short_name": "EG",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/evil-geniuses-2020-team-logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/evil-geniuses-2020-team-logo.png",
+            "fallback": false
+        },
+        "country": 265
+    },
+    {
+        "name": "100 Thieves",
+        "id": 38205,
+        "short_name": "100T",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/100Thieves-teamlogo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/100Thieves-teamlogo.png",
+            "fallback": false
+        },
+        "country": 265
+    },
+    {
+        "name": "FURIA eSports",
+        "id": 35132,
+        "short_name": "FURIA",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/FuriaEsports-Teamlogo.png.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/FuriaEsports-Teamlogo.png.png",
+            "fallback": false
+        },
+        "country": 50
+    },
+    {
+        "name": "BOOM eSports",
+        "id": 12828,
+        "short_name": "BOOM",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Boom-esporsv2-teamlogo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Boom-esporsv2-teamlogo.png",
+            "fallback": false
+        },
+        "country": 50
+    },
+    {
+        "name": "Mythic",
+        "id": 2039,
+        "short_name": "Mythic",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/mythic-teamlogo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/mythic-teamlogo.png",
+            "fallback": false
+        },
+        "country": 265
+    },
+    {
+        "name": "Renegades",
+        "id": 928,
+        "short_name": "RNG",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Renegades-2019.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Renegades-2019.png",
+            "fallback": false
+        },
+        "country": 33
+    },
+    {
+        "name": "Ground Zero.AU",
+        "id": 37237,
+        "short_name": "GZ.AU",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Ground-zero-logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Ground-zero-logo.png",
+            "fallback": false
+        },
+        "country": 33
+    },
+    {
+        "name": "ORDER",
+        "id": 38812,
+        "short_name": "ORD",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Order-LOL-Logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Order-LOL-Logo.png",
+            "fallback": false
+        },
+        "country": 33
+    },
+    {
+        "name": "Avant Gaming",
+        "id": 1941,
+        "short_name": "AvG",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Avant-Garde-logo-new.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Avant-Garde-logo-new.png",
+            "fallback": false
+        },
+        "country": 33
+    },
+    {
+        "name": "Chiefs eSports Club",
+        "id": 2765,
+        "short_name": "Chiefs",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Chiefs-Esports-Club-2018-Logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Chiefs-Esports-Club-2018-Logo.png",
+            "fallback": false
+        },
+        "country": 33
+    },
+    {
+        "name": "ViCi Gaming",
+        "id": 27504,
+        "short_name": "VG",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Vici-gaming-2017.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Vici-gaming-2017.png",
+            "fallback": false
+        },
+        "country": 66
+    },
+    {
+        "name": "TyLoo",
+        "id": 924,
+        "short_name": "TyLoo",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Tyloo-New1SEP16-Logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Tyloo-New1SEP16-Logo.png",
+            "fallback": false
+        },
+        "country": 66
+    },
+    {
+        "name": "Invictus Gaming",
+        "id": 31640,
+        "short_name": "iG",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Invictus-Gaming-iG-black.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Invictus-Gaming-iG-black.png",
+            "fallback": false
+        },
+        "country": 66
+    },
+    {
+        "name": "Isurus Gaming",
+        "id": 27758,
+        "short_name": "ISG",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Isurus-Gaming.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Isurus-Gaming.png",
+            "fallback": false
+        },
+        "country": 30
+    },
+    {
+        "name": "Natus Vincere",
+        "id": 904,
+        "short_name": "Na'Vi",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Natus-Vincere-Navi-new-logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Natus-Vincere-Navi-new-logo.png",
+            "fallback": false
+        },
+        "country": 261
+    },
+    {
+        "name": "Gambit Youngsters",
+        "id": 52994,
+        "short_name": "Gambit.Y",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/gambit-esports-team-logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/gambit-esports-team-logo.png",
+            "fallback": false
+        },
+        "country": 210
+    },
+    {
+        "name": "K23",
+        "id": 22957,
+        "short_name": "K23",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 135
+    },
+    {
+        "name": "R!OT Gaming",
+        "id": 31628,
+        "short_name": "R!OT",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/RiOT-teamlogo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/RiOT-teamlogo.png",
+            "fallback": false
+        },
+        "country": 33
+    },
+    {
+        "name": "YeaH Gaming",
+        "id": 40228,
+        "short_name": "YeaH",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/teamYeaH.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/teamYeaH.png",
+            "fallback": false
+        },
+        "country": 50
+    },
+    {
+        "name": "New England Whalers",
+        "id": 53820,
+        "short_name": "NEW",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/teamNewEnglandWhalers.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/teamNewEnglandWhalers.png",
+            "fallback": false
+        },
+        "country": 265
+    },
+    {
+        "name": "Beyond Esports",
+        "id": 35642,
+        "short_name": "Beyond",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Beyond-Esports-2020.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Beyond-Esports-2020.png",
+            "fallback": false
+        },
+        "country": 249
+    },
+    {
+        "name": "Sharks Esports",
+        "id": 35111,
+        "short_name": "Sharks",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Sharks-Esports-Logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Sharks-Esports-Logo.png",
+            "fallback": false
+        },
+        "country": 50
+    },
+    {
+        "name": "Team One",
+        "id": 15041,
+        "short_name": "T1",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Team-oNe-eSports-Logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Team-oNe-eSports-Logo.png",
+            "fallback": false
+        },
+        "country": 50
+    },
+    {
+        "name": "Rugratz",
+        "id": 57247,
+        "short_name": "Rugratz",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 265
+    },
+    {
+        "name": "Nitrious",
+        "id": 34794,
+        "short_name": "Nitrious",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 265
+    },
+    {
+        "name": "Paradox Gaming",
+        "id": 31919,
+        "short_name": "Paradox",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Paradox-gaming-logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Paradox-gaming-logo.png",
+            "fallback": false
+        },
+        "country": 33
+    },
+    {
+        "name": "Lese",
+        "id": 68445,
+        "short_name": "Lese",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "name": "Keep the Comms Up",
+        "id": 62540,
+        "short_name": "KtCUp",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 265
+    },
+    {
+        "name": "Third Impact",
+        "id": 65212,
+        "short_name": "3Impact",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Third-Impact-teamlogo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Third-Impact-teamlogo.png",
+            "fallback": false
+        },
+        "country": 265
+    },
+    {
+        "name": "Havan Liberty",
+        "id": 67020,
+        "short_name": "HL",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 50
+    },
+    {
+        "name": "HONORIS",
+        "id": 63194,
+        "short_name": "HONORIS",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/teamHonoris-logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/teamHonoris-logo.png",
+            "fallback": false
+        },
+        "country": 203
+    },
+    {
+        "name": "AVEZ Esport",
+        "id": 50397,
+        "short_name": "AVEZ",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/avez-teamlogo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/avez-teamlogo.png",
+            "fallback": false
+        },
+        "country": 203
+    },
+    {
+        "name": "mousesports",
+        "id": 863,
+        "short_name": "mouz",
+        "images": {
+            "default": "https://img.abiosgaming.com/casters/mousesports-mouz-newlogo.png",
+            "thumbnail": "https://img.abiosgaming.com/casters/thumbnails/mousesports-mouz-newlogo.png",
+            "fallback": false
+        },
+        "country": 94
+    },
+    {
+        "name": "Astralis",
+        "id": 9745,
+        "short_name": "Ast",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Astralis-Team-logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Astralis-Team-logo.png",
+            "fallback": false
+        },
+        "country": 81
+    },
+    {
+        "name": "Fnatic",
+        "id": 871,
+        "short_name": "FNC",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/fnatic-new-logo-2020.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/fnatic-new-logo-2020.png",
+            "fallback": false
+        },
+        "country": 243
+    },
+    {
+        "name": "ENCE eSports",
+        "id": 938,
+        "short_name": "ENCE",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Ence-new2.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Ence-new2.png",
+            "fallback": false
+        },
+        "country": 98
+    },
+    {
+        "name": "OG",
+        "id": 59399,
+        "short_name": "OG",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/OG-logo-clean.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/OG-logo-clean.png",
+            "fallback": false
+        },
+        "country": 94
+    },
+    {
+        "name": "Team Heretics",
+        "id": 37874,
+        "short_name": "Heretics",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Heretics-KFC-logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Heretics-KFC-logo.png",
+            "fallback": false
+        },
+        "country": 99
+    },
+    {
+        "name": "Team Vitality",
+        "id": 47338,
+        "short_name": "VIT",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Vitality-team-2018-true-logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Vitality-team-2018-true-logo.png",
+            "fallback": false
+        },
+        "country": 99
+    },
+    {
+        "name": "G2 Esports",
+        "id": 3280,
+        "short_name": "G2",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/g2-team-logo-transparent.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/g2-team-logo-transparent.png",
+            "fallback": false
+        },
+        "country": 99
+    },
+    {
+        "name": "GODSENT",
+        "id": 16181,
+        "short_name": "GODSENT",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/godsentgg-gs.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/godsentgg-gs.png",
+            "fallback": false
+        },
+        "country": 243
+    },
+    {
+        "name": "AGO Esports",
+        "id": 33030,
+        "short_name": "AGO",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/AGO-2020-logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/AGO-2020-logo.png",
+            "fallback": false
+        },
+        "country": 203
+    },
+    {
+        "name": "forZe",
+        "id": 33786,
+        "short_name": "fZe",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Forze-teamlogoNEW.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Forze-teamlogoNEW.png",
+            "fallback": false
+        },
+        "country": 210
+    },
+    {
+        "name": "Winstrike Team",
+        "id": 42771,
+        "short_name": "Winstrike",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Winstrike-new-teamlogo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Winstrike-new-teamlogo.png",
+            "fallback": false
+        },
+        "country": 210
+    },
+    {
+        "name": "1WIN",
+        "id": 60551,
+        "short_name": "1WIN",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/team1WIN.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/team1WIN.png",
+            "fallback": false
+        },
+        "country": 210
+    },
+    {
+        "name": "Nordavind",
+        "id": 39525,
+        "short_name": "Nord",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Nordavind-Logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Nordavind-Logo.png",
+            "fallback": false
+        },
+        "country": 191
+    },
+    {
+        "name": "sAw",
+        "id": 59885,
+        "short_name": "sAw",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/sAw-teamlogo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/sAw-teamlogo.png",
+            "fallback": false
+        },
+        "country": 204
+    },
+    {
+        "name": "Endpoint",
+        "id": 21694,
+        "short_name": "EdP",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Endpoint-2020-logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Endpoint-2020-logo.png",
+            "fallback": false
+        },
+        "country": 263
+    },
+    {
+        "name": "FATE eSports",
+        "id": 51296,
+        "short_name": "FATE.eu",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/Fate-esports-logo.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/Fate-esports-logo.png",
+            "fallback": false
+        },
+        "country": 54
+    }
+]

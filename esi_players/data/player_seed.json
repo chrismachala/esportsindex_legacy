@@ -1,0 +1,1466 @@
+[
+    {
+        "nick_name": "snatchie",
+        "id": 10240,
+        "first_name": "Michał",
+        "last_name": "Rudzki",
+        "images": {
+            "default": "https://img.abiosgaming.com/casters/snatchie-csgo-player-2019.png",
+            "thumbnail": "https://img.abiosgaming.com/casters/thumbnails/snatchie-csgo-player-2019.png",
+            "fallback": false
+        },
+        "country": 203
+    },
+    {
+        "nick_name": "mynio",
+        "id": 10247,
+        "first_name": "Wiktor",
+        "last_name": "Kruk",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 203
+    },
+    {
+        "nick_name": "lunAtic",
+        "id": 10471,
+        "first_name": "Dawid",
+        "last_name": "Cieślak",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 203
+    },
+    {
+        "nick_name": "BTN",
+        "id": 10477,
+        "first_name": "Catalin-Ionut",
+        "last_name": "Stanescu",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 209
+    },
+    {
+        "nick_name": "jR",
+        "id": 10482,
+        "first_name": "Dmitriy",
+        "last_name": "Chervak",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 261
+    },
+    {
+        "nick_name": "Mir",
+        "id": 10484,
+        "first_name": "Nikolay",
+        "last_name": "Bityukov",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 210
+    },
+    {
+        "nick_name": "S0tF1k",
+        "id": 10489,
+        "first_name": "Dmitry",
+        "last_name": "Forostyanko",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 210
+    },
+    {
+        "nick_name": "Dima",
+        "id": 10492,
+        "first_name": "Dmitriy",
+        "last_name": "Bandurka",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 210
+    },
+    {
+        "nick_name": "EliGE",
+        "id": 10877,
+        "first_name": "Jonathan",
+        "last_name": "Jablonowski",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/elige-player-picture.jpg",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/elige-player-picture.jpg",
+            "fallback": false
+        },
+        "country": 265
+    },
+    {
+        "nick_name": "NAF",
+        "id": 10889,
+        "first_name": "Keith",
+        "last_name": "Markovic",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/naf-player-picture.jpg",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/naf-player-picture.jpg",
+            "fallback": false
+        },
+        "country": 59
+    },
+    {
+        "nick_name": "Stanislaw",
+        "id": 10890,
+        "first_name": "Peter",
+        "last_name": "Jarguz",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 59
+    },
+    {
+        "nick_name": "jks-",
+        "id": 10900,
+        "first_name": "Justin",
+        "last_name": "Savage",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/jks-csgo-player-australia.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/jks-csgo-player-australia.png",
+            "fallback": false
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "AZR",
+        "id": 10901,
+        "first_name": "Aaron",
+        "last_name": "Ward",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/azr-csgo-player-australia.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/azr-csgo-player-australia.png",
+            "fallback": false
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "hen1",
+        "id": 10929,
+        "first_name": "Henrique",
+        "last_name": "Teles",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/hen1-profile-picture.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/hen1-profile-picture.png",
+            "fallback": false
+        },
+        "country": 50
+    },
+    {
+        "nick_name": "felps",
+        "id": 10935,
+        "first_name": "Joao",
+        "last_name": "Vasconcellos",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/Joao-felps-Vasconcellos-SK.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/Joao-felps-Vasconcellos-SK.png",
+            "fallback": false
+        },
+        "country": 50
+    },
+    {
+        "nick_name": "Stewie2k",
+        "id": 10999,
+        "first_name": "Jake",
+        "last_name": "Yip",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/Stewie2k-new-pic.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/Stewie2k-new-pic.png",
+            "fallback": false
+        },
+        "country": 265
+    },
+    {
+        "nick_name": "fl0m",
+        "id": 11005,
+        "first_name": "Erik",
+        "last_name": "Flom",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 265
+    },
+    {
+        "nick_name": "DAVEY",
+        "id": 11014,
+        "first_name": "David",
+        "last_name": "Stafford",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 59
+    },
+    {
+        "nick_name": "Sico",
+        "id": 11110,
+        "first_name": "Simon",
+        "last_name": "Williams",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 182
+    },
+    {
+        "nick_name": "bURNRUOk",
+        "id": 11113,
+        "first_name": "Cal",
+        "last_name": "Henderson",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "Rickeh",
+        "id": 11119,
+        "first_name": "Ricky",
+        "last_name": "Mulholland",
+        "images": {
+            "default": "https://img.abiosgaming.com/casters/rickeh-csgo-player-2019.png",
+            "thumbnail": "https://img.abiosgaming.com/casters/thumbnails/rickeh-csgo-player-2019.png",
+            "fallback": false
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "USTILO",
+        "id": 11122,
+        "first_name": "Karlo",
+        "last_name": "Pivac",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "ap0c",
+        "id": 11135,
+        "first_name": "Mike",
+        "last_name": "Aliferis",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "ofnu",
+        "id": 11137,
+        "first_name": "Chris",
+        "last_name": "Hanley",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 182
+    },
+    {
+        "nick_name": "zhokiNg",
+        "id": 11155,
+        "first_name": "Weijie",
+        "last_name": "Zhong",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 66
+    },
+    {
+        "nick_name": "Summer",
+        "id": 11163,
+        "first_name": "Yulun",
+        "last_name": "Cai",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 66
+    },
+    {
+        "nick_name": "somebody",
+        "id": 11165,
+        "first_name": "Haowen",
+        "last_name": "Xu",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 66
+    },
+    {
+        "nick_name": "bottle",
+        "id": 11179,
+        "first_name": "Lei",
+        "last_name": "Mao",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 66
+    },
+    {
+        "nick_name": "advent",
+        "id": 11189,
+        "first_name": "Zhuo",
+        "last_name": "Liang",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 66
+    },
+    {
+        "nick_name": "AttackeR",
+        "id": 11211,
+        "first_name": "YuanZhang",
+        "last_name": "Sheng",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 66
+    },
+    {
+        "nick_name": "Caike",
+        "id": 11772,
+        "first_name": "Caike",
+        "last_name": "Costa",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 50
+    },
+    {
+        "nick_name": "electronic",
+        "id": 11898,
+        "first_name": "Denis",
+        "last_name": "Sharipov",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/electronic-new-pic.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/electronic-new-pic.png",
+            "fallback": false
+        },
+        "country": 210
+    },
+    {
+        "nick_name": "kalinka",
+        "id": 12141,
+        "first_name": "Nikolaj",
+        "last_name": "Rysakov",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 148
+    },
+    {
+        "nick_name": "Hobbit",
+        "id": 12149,
+        "first_name": "Abay",
+        "last_name": "Khassenov",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/hobbit-new-pic.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/hobbit-new-pic.png",
+            "fallback": false
+        },
+        "country": 135
+    },
+    {
+        "nick_name": "mou",
+        "id": 12169,
+        "first_name": "Rustem",
+        "last_name": "Telepov",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/mou-new-pic.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/mou-new-pic.png",
+            "fallback": false
+        },
+        "country": 135
+    },
+    {
+        "nick_name": "yeL",
+        "id": 12216,
+        "first_name": "Gustavo",
+        "last_name": "Knittel",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 50
+    },
+    {
+        "nick_name": "Dexter",
+        "id": 12552,
+        "first_name": "Chris",
+        "last_name": "Nong",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "Liazz",
+        "id": 12563,
+        "first_name": "Jay",
+        "last_name": "Tregillgas",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/liazz-csgo-player-australia.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/liazz-csgo-player-australia.png",
+            "fallback": false
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "aliStair",
+        "id": 12566,
+        "first_name": "Alistair",
+        "last_name": "Johnston",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "Gratisfaction",
+        "id": 12568,
+        "first_name": "Sean",
+        "last_name": "Kaiwai",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/gratisfaction-csgo-player-australia.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/gratisfaction-csgo-player-australia.png",
+            "fallback": false
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "Ins",
+        "id": 12569,
+        "first_name": "Josh",
+        "last_name": "Potter",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "Malta",
+        "id": 12591,
+        "first_name": "Liam",
+        "last_name": "Schembri",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "Willyks",
+        "id": 12598,
+        "first_name": "Wilson",
+        "last_name": "Sugianto",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 124
+    },
+    {
+        "nick_name": "Brehze",
+        "id": 12811,
+        "first_name": "Vincent",
+        "last_name": "Cayonte",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 265
+    },
+    {
+        "nick_name": "tatazin",
+        "id": 12889,
+        "first_name": "Alef",
+        "last_name": "Pereira",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 50
+    },
+    {
+        "nick_name": "Chopper",
+        "id": 13717,
+        "first_name": "Leonid",
+        "last_name": "Vishnyakov",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 210
+    },
+    {
+        "nick_name": "aumaN",
+        "id": 15488,
+        "first_name": "Liu",
+        "last_name": "ZhiHong",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 66
+    },
+    {
+        "nick_name": "Hatz",
+        "id": 20010,
+        "first_name": "Jordan",
+        "last_name": "Bajic",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "shz",
+        "id": 21563,
+        "first_name": "Bruno",
+        "last_name": "Martinelli",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 50
+    },
+    {
+        "nick_name": "djay",
+        "id": 21888,
+        "first_name": "Jonathan",
+        "last_name": "Dallal",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 59
+    },
+    {
+        "nick_name": "kaze",
+        "id": 21914,
+        "first_name": "Andrew",
+        "last_name": "Khong",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 154
+    },
+    {
+        "nick_name": "qqGod",
+        "id": 21917,
+        "first_name": "Phoomphat",
+        "last_name": "Phojjanart",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 249
+    },
+    {
+        "nick_name": "Olivia",
+        "id": 21918,
+        "first_name": "Peeratch",
+        "last_name": "Ingkudanonda",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 249
+    },
+    {
+        "nick_name": "stk",
+        "id": 23358,
+        "first_name": "Anupong",
+        "last_name": "Mueangngam",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 249
+    },
+    {
+        "nick_name": "exit",
+        "id": 23637,
+        "first_name": "Raphael",
+        "last_name": "Lacerta",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 50
+    },
+    {
+        "nick_name": "jnt",
+        "id": 23640,
+        "first_name": "Jhonatan",
+        "last_name": "Silva",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 50
+    },
+    {
+        "nick_name": "Maluk3",
+        "id": 23642,
+        "first_name": "Pedro",
+        "last_name": "Campos",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 50
+    },
+    {
+        "nick_name": "InJect",
+        "id": 23724,
+        "first_name": "Steve",
+        "last_name": "Honan",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "JonY BoY",
+        "id": 25497,
+        "first_name": "Jonathan",
+        "last_name": "Muñoz",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 30
+    },
+    {
+        "nick_name": "Polen",
+        "id": 25575,
+        "first_name": "Adam",
+        "last_name": "Polen",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 265
+    },
+    {
+        "nick_name": "Hunter",
+        "id": 25578,
+        "first_name": "Joshua",
+        "last_name": "Madore",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 265
+    },
+    {
+        "nick_name": "tweiss",
+        "id": 26727,
+        "first_name": "Tyler",
+        "last_name": "Weiss",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 265
+    },
+    {
+        "nick_name": "ben1337",
+        "id": 26754,
+        "first_name": "Ben",
+        "last_name": "Smith",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 265
+    },
+    {
+        "nick_name": "rbz",
+        "id": 27091,
+        "first_name": "Daniel",
+        "last_name": "Urbani",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "HUGHMUNGUS/ stat",
+        "id": 27114,
+        "first_name": "Hugh",
+        "last_name": "Anderson",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "BL1TZ",
+        "id": 27117,
+        "first_name": "Peter",
+        "last_name": "Athanasatos",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "SWANKY",
+        "id": 27131,
+        "first_name": "Matthew",
+        "last_name": "McDonald",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "Ayrez",
+        "id": 27135,
+        "first_name": "Isaac",
+        "last_name": "Ayre",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "DeStRoYeR / Originalheart",
+        "id": 27333,
+        "first_name": "Gu",
+        "last_name": "JiaMing",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 66
+    },
+    {
+        "nick_name": "C0M",
+        "id": 27440,
+        "first_name": "Corbin",
+        "last_name": "Lee",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 265
+    },
+    {
+        "nick_name": "JonahP",
+        "id": 27453,
+        "first_name": "Jonah",
+        "last_name": "Pulice",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 59
+    },
+    {
+        "nick_name": "Noobster",
+        "id": 27572,
+        "first_name": "Andy",
+        "last_name": "Zhang",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "MAIROLLS",
+        "id": 27901,
+        "first_name": "Maitri",
+        "last_name": "Sukrob",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 249
+    },
+    {
+        "nick_name": "kntz",
+        "id": 27903,
+        "first_name": "Krit",
+        "last_name": "Chaiprasit",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 249
+    },
+    {
+        "nick_name": "chelo",
+        "id": 28446,
+        "first_name": "Marcelo",
+        "last_name": "Cespedes",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 50
+    },
+    {
+        "nick_name": "Noktse",
+        "id": 28864,
+        "first_name": "Nicolás",
+        "last_name": "Dávila",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 30
+    },
+    {
+        "nick_name": "XiaosaGe",
+        "id": 29420,
+        "first_name": "Song",
+        "last_name": "Peng",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 66
+    },
+    {
+        "nick_name": "Leo_druNky",
+        "id": 30071,
+        "first_name": "Leo",
+        "last_name": "Olivares",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 50
+    },
+    {
+        "nick_name": "FrostayK",
+        "id": 30185,
+        "first_name": "Trevor",
+        "last_name": "Bandle",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 265
+    },
+    {
+        "nick_name": "tconnors",
+        "id": 30260,
+        "first_name": "Thomas",
+        "last_name": "Connors",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 265
+    },
+    {
+        "nick_name": "HaZR",
+        "id": 31650,
+        "first_name": "Jared",
+        "last_name": "O'Bree",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "soju_j",
+        "id": 31784,
+        "first_name": "Jay",
+        "last_name": "Jeong",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 182
+    },
+    {
+        "nick_name": "j1rah",
+        "id": 31788,
+        "first_name": "Jireh",
+        "last_name": "Youakim",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 33
+    },
+    {
+        "nick_name": "dok",
+        "id": 32825,
+        "first_name": "Michael",
+        "last_name": "Marques",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 50
+    },
+    {
+        "nick_name": "prt",
+        "id": 32827,
+        "first_name": "Matheus",
+        "last_name": "Scuvero",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 50
+    },
+    {
+        "nick_name": "reversive",
+        "id": 33886,
+        "first_name": "Roberto",
+        "last_name": "Themtham",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 30
+    },
+    {
+        "nick_name": "remix",
+        "id": 39310,
+        "first_name": "Victor",
+        "last_name": "Monteiro",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 50
+    },
+    {
+        "nick_name": "ALLE ",
+        "id": 39315,
+        "first_name": "Alexandre",
+        "last_name": "Santos",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 50
+    },
+    {
+        "nick_name": "flamie",
+        "id": 8140,
+        "first_name": "Egor",
+        "last_name": "Vasilyev",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/flamie-new-pic.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/flamie-new-pic.png",
+            "fallback": false
+        },
+        "country": 210
+    },
+    {
+        "nick_name": "Neo",
+        "id": 8142,
+        "first_name": "Filip",
+        "last_name": "Kubski",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/NEO-new-pic.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/NEO-new-pic.png",
+            "fallback": false
+        },
+        "country": 203
+    },
+    {
+        "nick_name": "TaZ",
+        "id": 8143,
+        "first_name": "Wiktor",
+        "last_name": "Wojtas",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/taz-player-pic-aristocracy.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/taz-player-pic-aristocracy.png",
+            "fallback": false
+        },
+        "country": 203
+    },
+    {
+        "nick_name": "byali",
+        "id": 8145,
+        "first_name": "Paweł",
+        "last_name": "Bieliński",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 203
+    },
+    {
+        "nick_name": "Karrigan",
+        "id": 8146,
+        "first_name": "Finn",
+        "last_name": "Andersen",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/karrigan-csgo-player-mousesports.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/karrigan-csgo-player-mousesports.png",
+            "fallback": false
+        },
+        "country": 81
+    },
+    {
+        "nick_name": "device",
+        "id": 8147,
+        "first_name": "Nicolai",
+        "last_name": "Reedtz",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/dev1ce-new-pic.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/dev1ce-new-pic.png",
+            "fallback": false
+        },
+        "country": 81
+    },
+    {
+        "nick_name": "dupreeh",
+        "id": 8148,
+        "first_name": "Peter",
+        "last_name": "Rothmann",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/dupreeh-new-pic.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/dupreeh-new-pic.png",
+            "fallback": false
+        },
+        "country": 81
+    },
+    {
+        "nick_name": "flusha",
+        "id": 8152,
+        "first_name": "Robin",
+        "last_name": "Rönnquist",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/flusha-new-pic.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/flusha-new-pic.png",
+            "fallback": false
+        },
+        "country": 243
+    },
+    {
+        "nick_name": "JW",
+        "id": 8153,
+        "first_name": "Jesper",
+        "last_name": "Wecksell",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/JW-new-pic.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/JW-new-pic.png",
+            "fallback": false
+        },
+        "country": 243
+    },
+    {
+        "nick_name": "KRiMZ",
+        "id": 8154,
+        "first_name": "Freddy",
+        "last_name": "Johansson",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/Krimz-new-pic.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/Krimz-new-pic.png",
+            "fallback": false
+        },
+        "country": 243
+    },
+    {
+        "nick_name": "allu",
+        "id": 8160,
+        "first_name": "Aleksi",
+        "last_name": "Jalli",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 98
+    },
+    {
+        "nick_name": "NBK-",
+        "id": 8165,
+        "first_name": "Nathan",
+        "last_name": "Schmitt",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/NBK-player-picture.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/NBK-player-picture.png",
+            "fallback": false
+        },
+        "country": 99
+    },
+    {
+        "nick_name": "kioShiMa",
+        "id": 8169,
+        "first_name": "Fabien",
+        "last_name": "Fiey",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 99
+    },
+    {
+        "nick_name": "apEX",
+        "id": 8170,
+        "first_name": "Dan",
+        "last_name": "Madesclaire",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/apEX-new-pic.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/apEX-new-pic.png",
+            "fallback": false
+        },
+        "country": 99
+    },
+    {
+        "nick_name": "kennyS",
+        "id": 8171,
+        "first_name": "Kenny",
+        "last_name": "Schrub",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/KennyS-new-pic.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/KennyS-new-pic.png",
+            "fallback": false
+        },
+        "country": 99
+    },
+    {
+        "nick_name": "shox",
+        "id": 8179,
+        "first_name": "Richard",
+        "last_name": "Papillon",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/shox-player-picture.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/shox-player-picture.png",
+            "fallback": false
+        },
+        "country": 99
+    },
+    {
+        "nick_name": "RpK",
+        "id": 8189,
+        "first_name": "Cédric",
+        "last_name": "Guipouy",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/rpk-player-picture.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/rpk-player-picture.png",
+            "fallback": false
+        },
+        "country": 99
+    },
+    {
+        "nick_name": "STYKO",
+        "id": 8199,
+        "first_name": "Martin",
+        "last_name": "Styk",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/STYKO-new-pic.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/STYKO-new-pic.png",
+            "fallback": false
+        },
+        "country": 228
+    },
+    {
+        "nick_name": "s1mple",
+        "id": 8200,
+        "first_name": "Oleksandr",
+        "last_name": "Kostyliev",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/s1mple-new-pic.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/s1mple-new-pic.png",
+            "fallback": false
+        },
+        "country": 261
+    },
+    {
+        "nick_name": "SZPERO",
+        "id": 8204,
+        "first_name": "Grzegorz",
+        "last_name": "Dziamałek",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 203
+    },
+    {
+        "nick_name": "GruBy",
+        "id": 8220,
+        "first_name": "Dominik",
+        "last_name": "Swiderski",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 203
+    },
+    {
+        "nick_name": "Furlan",
+        "id": 8223,
+        "first_name": "Damian",
+        "last_name": "Kisłowski",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 203
+    },
+    {
+        "nick_name": "facecrack",
+        "id": 8235,
+        "first_name": "Dmitriy",
+        "last_name": "Alekseyev",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/facecrack-profile-picture.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/facecrack-profile-picture.png",
+            "fallback": false
+        },
+        "country": 210
+    },
+    {
+        "nick_name": "bondik",
+        "id": 8238,
+        "first_name": "Vlаdуslаv",
+        "last_name": "Nеchуроrchuk",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 261
+    },
+    {
+        "nick_name": "DavCost",
+        "id": 8241,
+        "first_name": "Vadim",
+        "last_name": "Vasilyev",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 210
+    },
+    {
+        "nick_name": "tenzki",
+        "id": 8256,
+        "first_name": "Jesper",
+        "last_name": "Plougmann",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 81
+    },
+    {
+        "nick_name": "denis",
+        "id": 8287,
+        "first_name": "Denis",
+        "last_name": "Howell",
+        "images": {
+            "default": "https://img.abiosgaming.com/casters/denis-csgo-player-2019.png",
+            "thumbnail": "https://img.abiosgaming.com/casters/thumbnails/denis-csgo-player-2019.png",
+            "fallback": false
+        },
+        "country": 105
+    },
+    {
+        "nick_name": "Spiidi",
+        "id": 8293,
+        "first_name": "Tiimo",
+        "last_name": "Richter",
+        "images": {
+            "default": "https://img.abiosgaming.com/casters/spiidi-csgo-player-2019.png",
+            "thumbnail": "https://img.abiosgaming.com/casters/thumbnails/spiidi-csgo-player-2019.png",
+            "fallback": false
+        },
+        "country": 105
+    },
+    {
+        "nick_name": "jkaem",
+        "id": 8299,
+        "first_name": "Joakim",
+        "last_name": "Myrbostad",
+        "images": {
+            "default": "https://img.abiosgaming.com/competitors/jkaem-csgo-player-norway.png",
+            "thumbnail": "https://img.abiosgaming.com/competitors/thumbnails/jkaem-csgo-player-norway.png",
+            "fallback": false
+        },
+        "country": 191
+    },
+    {
+        "nick_name": "arki",
+        "id": 8325,
+        "first_name": "Omar",
+        "last_name": "Chakkor",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 238
+    },
+    {
+        "nick_name": "tarik",
+        "id": 8520,
+        "first_name": "Tarik",
+        "last_name": "Celik",
+        "images": {
+            "default": "https://img.abiosgaming.com/players/tarik-new-pic.png",
+            "thumbnail": "https://img.abiosgaming.com/players/thumbnails/tarik-new-pic.png",
+            "fallback": false
+        },
+        "country": 265
+    },
+    {
+        "nick_name": "boltz",
+        "id": 9011,
+        "first_name": "Ricardo",
+        "last_name": "Prass",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 50
+    },
+    {
+        "nick_name": "robiin",
+        "id": 9738,
+        "first_name": "Robin",
+        "last_name": "Sjögren",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 243
+    },
+    {
+        "nick_name": "niki1",
+        "id": 9752,
+        "first_name": "Nikolay",
+        "last_name": "Pantaleev",
+        "images": {
+            "default": "https://img.abiosgaming.com/other/New-Abios-Place-Holder.png",
+            "thumbnail": "https://img.abiosgaming.com/other/thumbnails/New-Abios-Place-Holder.png",
+            "fallback": true
+        },
+        "country": 54
+    }
+]
