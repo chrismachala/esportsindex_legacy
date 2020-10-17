@@ -1,0 +1,16 @@
+{% extends "esi_users/pre-reg.html" %}
+{% load static %}
+
+
+{% block content %}
+     {% block title %}<title>Profile</title>{% endblock %}
+
+    {% if user.is_authenticated %}
+
+   Welcome Back {{ user.first_name }}
+         <a class="small" href="{% url 'logout' %}">logout</a>
+
+
+    {% endif %}
+
+{% endblock %}
