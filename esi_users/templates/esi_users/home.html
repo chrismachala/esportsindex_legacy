@@ -1,4 +1,4 @@
-{% extends "esi_users/pre-reg.html" %}
+{% extends "esi_players/base_generic.html" %}
 {% load static %}
 
 
@@ -6,11 +6,38 @@
      {% block title %}<title>Profile</title>{% endblock %}
 
     {% if user.is_authenticated %}
+        <div class="container">
 
-   Welcome Back {{ user.first_name }}
-         <a class="small" href="{% url 'logout' %}">logout</a>
+        <h2> Your Portfolio </h2>
+
+            <div class="row">
+        <div class="col-sm-3">Player</div>
+        <div class="col-sm-3">Quantity</div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3"></div>
+    </div>
+
+        {% for future in futures %}
+
+            <div class="row">
+        <img alt="player image" src=" {{ future.asset.images.thumbnail }}" class="img-fluid img-profile rounded-circle" />
+        <div class="col-sm-3">{{ future.asset.ign }}</div>
+        <div class="col-sm-3">{{ future.quantity }}</div>
+        <div class="col-sm-3"><a href=" {% url 'player' future.asset.id %}" class="btn btn-light btn-icon-split">
+                          <span class="icon text-gray-600">
+                              <i class="fas fa-arrow-right">
+
+                              </i>
+                          </span>
+                          <span class="text"> view {{ future.asset.ign }} Profile</span>
+
+                      </a></div>
+    </div>
+
+        {% endfor %}
 
 
+</div>
     {% endif %}
 
 {% endblock %}

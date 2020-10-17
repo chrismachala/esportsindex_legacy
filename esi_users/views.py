@@ -5,7 +5,8 @@ from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.shortcuts import render, redirect
 from django.template import RequestContext
-
+from esi_users.models import Profile, Future
+from esi_players.models import Player
 import esi_users.forms as forms
 from django.contrib.auth.decorators import login_required
 import sys
@@ -42,7 +43,10 @@ def user_logout(request):
 
 @login_required
 def home_view(request):
-    return render(request, 'esi_users/home.html')
+    u = request.user
+    f_query = Future.objects.filter(user=u.profile)
+    template_name = 'esi_users/home.html'
+    return render(request, template_name, {'futures': f_query})
 
 
 def login_view(request):
