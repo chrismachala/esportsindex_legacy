@@ -28,7 +28,7 @@ class Profile(models.Model):
 
 
 class Future(models.Model):
-    asset = models.ForeignKey('esi_players.Player', on_delete=models.CASCADE)
+    asset = models.ForeignKey('esi_pricingengine.Asset', on_delete=models.CASCADE)
     user = models.ForeignKey('Profile', on_delete=models.CASCADE)
     quantity = models.IntegerField(default=0)
 

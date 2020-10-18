@@ -21,18 +21,35 @@
                 </div>
 				<div class="col-md-10">
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-8">
 							<h2>
                                {{ player.ign }}
 							</h2>
 						</div>
+                        <div class="col-md-4">
+                            <a href="{% url 'buy' p.id %}" class="btn btn-success btn-icon-split">
+                    <span class="icon text-white-50">
+                      <i class="fas fa-money"></i>
+                    </span>
+                    <span class="text">Buy {{ player.ign }}</span>
+                  </a>
+                        </div>
+
 					</div>
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-8">
 							<h4>
 								{{ player.first_name}} {{ player.last_name}}
 							</h4>
 						</div>
+                             <div class="col-md-4">
+                           <a href="{% url 'sell' p.id %}" class="btn btn-danger btn-icon-split">
+                    <span class="icon text-white-50">
+                      <i class="fas fa-money"></i>
+                    </span>
+                    <span class="text">Sell {{ player.ign }}</span>
+                  </a>
+                        </div>
 					</div>
 				</div>
 			</div>

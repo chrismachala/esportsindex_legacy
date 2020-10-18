@@ -41,6 +41,7 @@ ALLOWED_HOSTS = ip_addresses()
 # Application definition
 
 INSTALLED_APPS = [
+    'esi_pricingengine',
     'esi_users',
     'esi_players',
     'django.contrib.admin',
