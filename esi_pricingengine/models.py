@@ -36,7 +36,7 @@ class Transaction(models.Model):
     volume = models.IntegerField(default=1)
     price_per_unit = models.DecimalField(max_digits=6, decimal_places=2, default=0)
     timestamp = models.DateTimeField(null=False, default=timezone.now)
-    type = models.CharField(max_length=5, choices=[(t_type, t_type.value) for t_type in TransactionType], null=True)
+    type = models.CharField(max_length=255, choices=[(t_type, t_type.value) for t_type in TransactionType], null=True)
     valid = models.BooleanField(default=False)
 
     def is_valid(self):

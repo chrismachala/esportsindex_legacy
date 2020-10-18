@@ -8,7 +8,6 @@ from django.http import HttpResponseRedirect
 
 def create_transaction(request, player_pk):
     t = Transaction()
-    # probably wrong below - want to get an asset with the correct player object
     t.asset = Asset.objects.get(player__id=player_pk)
     print("asset: {0}".format(t.asset.__str__()))
     t.user = request.user.profile
