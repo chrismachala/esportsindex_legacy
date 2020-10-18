@@ -15,15 +15,11 @@ def players(request):
     template_name = 'esi_players/players.html'
     asset_list = Asset.objects.all()
 
-    template = "esi_players/base_generic.html"
-
     return render(request, template_name,
-                  { 'assets': asset_list, 'template': template})
+                  {'assets': asset_list})
 
 
 def player(request, player_pk):
-
-    template = "esi_players/base_generic.html"
     asset = Asset.objects.get(player_id=player_pk)
     player_ins = Player.objects.filter(id=player_pk).first()
     team = PlayerTeam.objects.filter(player__player_id=player_ins.player_id).first().team
@@ -34,5 +30,5 @@ def player(request, player_pk):
         if pt.player.player_id != player_ins.player_id:
             team_list.append(pt.player)
 
-    return render(request, template_name, {'player': player_ins,'asset':asset, 'team': team, 'team_list':team_list, 'template':template})
+    return render(request, template_name, {'player': player_ins,'asset':asset, 'team': team, 'team_list':team_list})
 
