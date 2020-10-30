@@ -1,0 +1,26 @@
+{% extends "esi_players/base_generic.html" %}
+
+
+{% block content %}
+     {% block title %}<title>{{ asset.player.ign }}</title>{% endblock %}
+{% load static %}
+
+    {% block css %}
+    {% endblock css %}
+
+    <!-- MAIN CONTENT BEGIN -->
+
+    <form action="/engine/transaction/{{ ttype }}/{{ asset.player.id }}" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+</form>
+
+    <!-- MAIN CONTENT END -->
+
+    {% block js %}
+
+    {% endblock js %}
+
+
+{% endblock %}
