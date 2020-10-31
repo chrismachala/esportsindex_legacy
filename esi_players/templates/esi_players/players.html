@@ -1,10 +1,17 @@
 {% extends "esi_players/base_generic.html" %}
-
+{% load static %}
 
 
 {% block content %}
      {% block title %}<title>Esports Player Index</title>{% endblock %}
-{% load static %}
+
+
+        <!-- Custom Modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content"></div>
+        </div>
+    </div>
 
     {% block css %}
         <link href="{% static 'esi_players/vendor/datatables/dataTables.bootstrap4.min.css'%}" rel="stylesheet">
@@ -56,18 +63,23 @@
                           <span class="text"> view {{ asset.player.ign }} Profile</span>
 
                       </a></td>
-                    <td><a href="{% url 'buy' asset.player.id %}" class="btn btn-success btn-icon-split">
+                    <td><button class="bs-modal btn btn-success btn-icon-split " data-form-url="{% url 'transaction_form' 'Buy' asset.player.id %}"  type="button"
+                                name="button">
                     <span class="icon text-white-50">
                       <i class="fas fa-money"></i>
                     </span>
                     <span class="text">£{{asset.value }}</span>
-                  </a></td>
-                    <td><a href="{% url 'sell' asset.player.id %}" class="btn btn-danger btn-icon-split">
+                  </button></td>
+
+                        <td><button class="bs-modal btn btn-danger btn-icon-split " data-form-url="{% url 'transaction_form' 'Sell' asset.player.id %}"  type="button"
+                                name="button">
                     <span class="icon text-white-50">
                       <i class="fas fa-money"></i>
                     </span>
                     <span class="text">£{{ asset.value }}</span>
-                  </a></td>
+                  </button></td>
+
+
                     </tr>
                       {% endfor %}
                   {% else %}
@@ -80,6 +92,25 @@
           </div>
 
     {% block js %}
+
+                <script type="text/javascript">
+            $(function () {
+
+                $(".bs-modal").each(function() {
+                    $(this).modalForm(
+                        {
+                            formURL: $(this).data("form-url")
+                        });
+
+
+                    // Hide message
+                    $(".alert").fadeTo(2000, 500).slideUp(500, function () {
+                        $(".alert").slideUp(500);
+                    });
+                });
+            });
+        </script>
+
 
 
     {% endblock js %}

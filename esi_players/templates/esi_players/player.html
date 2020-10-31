@@ -1,213 +1,253 @@
 {% extends "esi_players/base_generic.html" %}
-
+{% load static %}
 
 {% block content %}
-     {% block title %}<title>{{ player.ign }}</title>{% endblock %}
-{% load static %}
+    {% block title %}<title>{{ player.ign }}</title>{% endblock %}
+    <!-- Custom Modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content"></div>
+        </div>
+    </div>
 
     {% block css %}
     {% endblock css %}
 
     <!-- MAIN CONTENT BEGIN -->
 
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-8">
-			<div class="row">
-				<div class="col-md-2">
-                    <img alt="player image" src="{{ player.images.default }}"  class="img-fluid img-profile rounded-circle"/>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img alt="player image" src="{{ player.images.default }}"
+                             class="img-fluid img-profile rounded-circle"/>
 
-                </div>
-				<div class="col-md-10">
-					<div class="row">
-						<div class="col-md-8">
-							<h2>
-                               {{ player.ign }}
-							</h2>
-						</div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h2>
+                                    {{ player.ign }}
+                                </h2>
+                            </div>
+
+
                         <div class="col-md-4">
-                            <a href="{% url 'buy' player.id %}" class="btn btn-success btn-icon-split">
+                            <button class="bs-modal btn btn-success btn-icon-split" data-form-url="{% url 'transaction_form' 'Buy' player.id %}" type="button"
+                                name="button" >
                     <span class="icon text-white-50">
                       <i class="fas fa-money"></i>
                     </span>
                     <span class="text">Buy £{{ asset.value }}</span>
-                  </a>
+                  </button>
                         </div>
 
-					</div>
-					<div class="row">
-						<div class="col-md-8">
-							<h4>
-								{{ player.first_name}} {{ player.last_name}}
-							</h4>
-						</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h4>
+                                    {{ player.first_name }} {{ player.last_name }}
+                                </h4>
+                            </div>
                              <div class="col-md-4">
-                           <a href="{% url 'sell' player.id %}" class="btn btn-danger btn-icon-split">
+                           <button class="bs-modal btn btn-danger btn-icon-split" data-form-url="{% url 'transaction_form' 'Sell' player.id %}" type="button"
+                                name="button">
                     <span class="icon text-white-50">
                       <i class="fas fa-money"></i>
                     </span>
                     <span class="text">Sell £{{ asset.value }}</span>
-                  </a>
+                  </button>
                         </div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-
-				<div class="col-md-12">
-                    <hr/>
-					<div class="row">
-
-                        <!-- Country -->
-			<div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Nationality</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">{{ player.country.name }}</div>
+                        </div>
                     </div>
-                    <div class="col-auto">
-                      <img alt="country_flag" src="{{ player.country.images.thumbnail }}" />
-                    </div>
-                  </div>
                 </div>
-              </div>
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <hr/>
+                        <div class="row">
+
+                            <!-- Country -->
+                            <div class="col-xl-3 col-md-6 mb-4">
+                                <div class="card border-left-primary shadow h-100 py-2">
+                                    <div class="card-body">
+                                        <div class="row no-gutters align-items-center">
+                                            <div class="col mr-2">
+                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                    Nationality
+                                                </div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">{{ player.country.name }}</div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <img alt="country_flag" src="{{ player.country.images.thumbnail }}"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Region -->
+                            <div class="col-xl-3 col-md-6 mb-4">
+                                <div class="card border-left-primary shadow h-100 py-2">
+                                    <div class="card-body">
+                                        <div class="row no-gutters align-items-center">
+                                            <div class="col mr-2">
+                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                    Region
+                                                </div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">{{ player.country.region.name }}</div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <i class="fas fa-globe fa-2x text-gray-300"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Twitter -->
+                            <div class="col-xl-3 col-md-6 mb-4">
+                                <div class="card border-left-primary shadow h-100 py-2">
+                                    <div class="card-body">
+                                        <div class="row no-gutters align-items-center">
+                                            <div class="col mr-2">
+                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                    Twitter
+                                                </div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">n/a</div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <i class="fa fa-twitter fa-2x text-gray-300"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Twitch -->
+                            <div class="col-xl-3 col-md-6 mb-4">
+                                <div class="card border-left-primary shadow h-100 py-2">
+                                    <div class="card-body">
+                                        <div class="row no-gutters align-items-center">
+                                            <div class="col mr-2">
+                                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                    Twitch
+                                                </div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">n/a</div>
+                                            </div>
+                                            <div class="col-auto">
+                                                <i class="fa fa-twitch fa-2x text-gray-300" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- End Cards -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Area Chart -->
+
+                        <div class="card shadow mb-4">
+                            <!-- Card Header - Dropdown -->
+                            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                <h6 class="m-0 font-weight-bold text-primary">Player Stats</h6>
+
+                            </div>
+                            <!-- Card Body -->
+                            <div class="card-body">
+                                <div class="chart-area">
+                                    <canvas id="myAreaChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-                      <!-- Region -->
-			<div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Region</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">{{ player.country.region.name }}</div>
+            <!-- Team -->
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img alt="team logo" src=" {{ team.images.default }}" class="img-fluid img-profile"/>
                     </div>
-                    <div class="col-auto">
-                      <i class="fas fa-globe fa-2x text-gray-300"></i>
+                    <div class="col-md-8">
+                        <h3>
+                            {% if team %}
+
+                                {{ team.name }}
+                            {% else %}
+                                <p> No Team</p>
+                            {% endif %}
+                        </h3>
                     </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-                        <!-- Twitter -->
-			<div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Twitter</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">n/a</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fa fa-twitter fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-                        <!-- Twitch -->
-			<div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Twitch</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">n/a</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fa fa-twitch fa-2x text-gray-300" aria-hidden="true"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-                        <!-- End Cards -->
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-            <!-- Area Chart -->
+                {% if team_list %}
 
-              <div class="card shadow mb-4">
-                <!-- Card Header - Dropdown -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Player Stats</h6>
-
-                </div>
-                <!-- Card Body -->
-                <div class="card-body">
-                  <div class="chart-area">
-                    <canvas id="myAreaChart"></canvas>
-                  </div>
-                </div>
-              </div>
-            </div>
-			</div>
-		</div>
-        <!-- Team -->
-		<div class="col-md-4">
-			<div class="row">
-				<div class="col-md-4">
-					<img alt="team logo" src=" {{ team.images.default }}" class="img-fluid img-profile" />
-				</div>
-				<div class="col-md-8">
-					<h3>
-                        {% if team %}
-
-						{{ team.name }}
-                        {% else %}
-                        <p> No Team</p>
-                        {% endif %}
-					</h3>
-				</div>
-			</div>
-
-            {% if team_list %}
-
-                {% for p in team_list %}
-                			<div class="row">
-				<div class="col-md-4">
-					<img alt="Bootstrap Image Preview" src="{{ p.images.default }}"class="img-fluid img-profile rounded-circle" />
-				</div>
-				<div class="col-md-8">
-					<h3>
-                        <a href=" {% url 'player' p.id %}" class="btn btn-light btn-icon-split">
+                    {% for p in team_list %}
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img alt="Bootstrap Image Preview" src="{{ p.images.default }}"
+                                     class="img-fluid img-profile rounded-circle"/>
+                            </div>
+                            <div class="col-md-8">
+                                <h3>
+                                    <a href=" {% url 'player' p.id %}" class="btn btn-light btn-icon-split">
                           <span class="icon text-gray-600">
                               <i class="fas fa-arrow-right">
 
                               </i>
                           </span>
-                          <span class="text"> view {{ p.ign }} Profile</span>
+                                        <span class="text"> view {{ p.ign }} Profile</span>
 
-                      </a>
-					</h3>
-				</div>
-			</div>
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
 
-                {% endfor %}
+                    {% endfor %}
 
-            {% else %}
-            <p>No team mates</p>
-            {% endif %}
-
-
-	</div>
-</div>
+                {% else %}
+                    <p>No team mates</p>
+                {% endif %}
 
 
-  </div>
+            </div>
+        </div>
+
+
+    </div>
 
     <!-- MAIN CONTENT END -->
 
     {% block js %}
+        <script type="text/javascript">
+            $(function () {
 
-            <script src="{% static 'esi_players/vendor/chart.js/Chart.min.js'%}"></script>
+                $(".bs-modal").each(function () {
+                    $(this).modalForm(
+                        {
+                            formURL: $(this).data("form-url")
+                        });
 
-  <!-- Page level custom scripts -->
-  <script src="{% static 'esi_players/js/demo/chart-area-demo.js'%}"></script>
+
+                    // Hide message
+                    $(".alert").fadeTo(2000, 500).slideUp(500, function () {
+                        $(".alert").slideUp(500);
+                    });
+                });
+            });
+        </script>
+
+
+
+
+
+
+        <script src="{% static 'esi_players/vendor/chart.js/Chart.min.js' %}"></script>
+        <!-- Page level custom scripts -->
+        <script src="{% static 'esi_players/js/demo/chart-area-demo.js' %}"></script>
     {% endblock js %}
 
 

@@ -41,6 +41,7 @@ ALLOWED_HOSTS = ip_addresses()
 # Application definition
 
 INSTALLED_APPS = [
+    'bootstrap_modal_forms',
     'esi_pricingengine',
     'esi_users',
     'esi_players',

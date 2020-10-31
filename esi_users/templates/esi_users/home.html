@@ -3,53 +3,101 @@
 
 
 {% block content %}
-     {% block title %}<title>Profile</title>{% endblock %}
+    {% block title %}<title>Profile</title>{% endblock %}
+
+    <!-- Custom Modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content"></div>
+        </div>
+    </div>
 
     {% if user.is_authenticated %}
         <div class="container">
 
-        <h2> Your Portfolio </h2>
+            <h2> Your Portfolio </h2>
 
             <div class="row">
-        <div class="col-sm-3">Player</div>
-        <div class="col-sm-3">Quantity</div>
-        <div class="col-sm-3"></div>
-        <div class="col-sm-3"></div>
-    </div>
+                <div class="col-sm-3">Player</div>
+                <div class="col-sm-3">Quantity</div>
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"></div>
+            </div>
 
-        {% for future in futures %}
+            {% for future in futures %}
 
-            <div class="row">
-        <img alt="player image" src=" {{ future.asset.player.images.thumbnail }}" class="img-fluid img-profile rounded-circle" />
-        <div class="col-sm-2">{{ future.asset.player.ign }}</div>
-        <div class="col-sm-2">{{ future.quantity }}</div>
-                <div class="col-sm-2"><a href="{% url 'transaction_form' 'Buy' future.asset.player.id %}" class="btn btn-success btn-icon-split">
-                    <span class="icon text-white-50">
+                <div class="row">
+                    <img alt="player image" src=" {{ future.asset.player.images.thumbnail }}"
+                         class="img-fluid img-profile rounded-circle"/>
+                    <div class="col-sm-2">{{ future.asset.player.ign }}</div>
+                    <div class="col-sm-2">{{ future.quantity }}</div>
+                    <div class="col-sm-2">
+
+                        <button class="bs-modal btn btn-success btn-icon-split "
+                                data-form-url="{% url 'transaction_form' 'Buy' future.asset.player.id %}" type="button"
+                                name="button">                    <span class="icon text-white-50">
                       <i class="fas fa-money"></i>
                     </span>
-                    <span class="text">Buy £{{ future.asset.value }}</span>
-                  </a></div>
-                <div class="col-sm-2"><a href="{% url 'transaction_form' 'Sell' future.asset.player.id %}" class="btn btn-danger btn-icon-split">
-                    <span class="icon text-white-50">
+                            <span class="text">Buy £{{ future.asset.value }}</span>
+                        </button>
+
+                    </div>
+
+                    <div class="col-sm-2">
+
+                        <button class="bs-modal btn btn-danger btn-icon-split "
+                                data-form-url="{% url 'transaction_form' 'Sell' future.asset.player.id %}" type="button"
+                                name="button">                    <span class="icon text-white-50">
                       <i class="fas fa-money"></i>
                     </span>
-                    <span class="text">Sell £{{ future.asset.value }}</span>
-                  </a></div>
-                    <div class="col-sm-2"><a href=" {% url 'player' future.asset.player.id %}" class="btn btn-light btn-icon-split">
+                            <span class="text">Sell £{{ future.asset.value }}</span>
+                        </button>
+
+                    </div>
+
+
+                    <div class="col-sm-2">
+
+                        <a href=" {% url 'player' future.asset.player.id %}"
+                           class="btn btn-light btn-icon-split">
                           <span class="icon text-gray-600">
                               <i class="fas fa-arrow-right">
 
                               </i>
                           </span>
-                          <span class="text"> view {{ future.asset.ign }} Profile</span>
+                            <span class="text"> view {{ future.asset.ign }} Profile</span>
 
-                      </a></div>
-    </div>
+                        </a></div>
+                </div>
 
-        {% endfor %}
+            {% endfor %}
 
 
-</div>
+        </div>
     {% endif %}
+
+    {% block js %}
+
+        <script type="text/javascript">
+            $(function () {
+
+                $(".bs-modal").each(function() {
+                    $(this).modalForm(
+                        {
+                            formURL: $(this).data("form-url")
+                        });
+
+
+                    // Hide message
+                    $(".alert").fadeTo(2000, 500).slideUp(500, function () {
+                        $(".alert").slideUp(500);
+                    });
+                });
+            });
+        </script>
+
+
+
+    {% endblock js %}
 
 {% endblock %}

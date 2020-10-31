@@ -14,14 +14,24 @@ class Asset(models.Model):
     def __str__(self):
         return self.player.__str__()
 
+    def remaing_volume(self):
+        return int(300 - (self.volume % 300))
+
     def generate_price(self):
         self.value = 1.00
 
     def proc_transaction(self, transaction):
+        print("Process Transaction Start")
+        print("Starting Volume {0}".format(self.volume))
+
         self.volume = (self.volume + transaction.volume) if transaction.type == TransactionType.B\
             else (self.volume - transaction.volume)
 
+        print("New Volume {0}".format(self.volume))
+        print("End Vol")
+
         self.generate_price()
+        return "Complete processing transaction"
 
 
 class TransactionType(Enum):
