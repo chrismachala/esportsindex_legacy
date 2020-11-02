@@ -5,13 +5,12 @@ from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 
 class UserCreateForm(UserCreationForm):
     email = forms.EmailField(max_length=150, required=True, help_text="Email")
-    username = forms.EmailField(max_length=200, required=False, help_text="Email")
     first_name = forms.CharField(max_length=100, required=True, help_text="First Name")
     last_name = forms.CharField(max_length=100, required=True, help_text="Last Name")
 
     class Meta:
         model = User
-        fields = ("username", "first_name", "last_name", "email", "password1", "password2")
+        fields = ("first_name", "last_name", "email", "password1", "password2")
 
     def save(self, commit=True):
         user = super(UserCreateForm, self).save(commit=False)
