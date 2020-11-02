@@ -12,31 +12,22 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
-import netifaces
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-# BASE_DIR = Path(__file__).resolve().parent.parent
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+LOGIN_REDIRECT_URL = 'esi_users/home'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = '905tnbp%%2x5h+5bl)3ppb4d@oxo__=c%cnl%bdy^6tts1c2-1'
-SECRET_KEY = '54bb8e89e7b635432b745c602f776ddf'
+SECRET_KEY = '905tnbp%%2x5h+5bl)3ppb4d@oxo__=c%cnl%bdy^6tts1c2-1'
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-#ALLOWED_HOSTS = ['165.232.33.41', 'localhost', '127.0.0.1', 'www.chrismachala.co.uk', 'test.chrismachala.co.uk']
-def ip_addresses():
-    ip_list = ['test.chrismachala.co.uk']
-    for interface in netifaces.interfaces():
-        addrs = netifaces.ifaddresses(interface)
-        for x in (netifaces.AF_INET, netifaces.AF_INET6):
-            if x in addrs:
-                ip_list.append(addrs[x][0]['addr'])
-    return ip_list
+ALLOWED_HOSTS = []
 
-ALLOWED_HOSTS = ip_addresses()
 
 # Application definition
 
@@ -50,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles'
+    'django.contrib.staticfiles',
 ]
 
 MIDDLEWARE = [
@@ -68,8 +59,8 @@ ROOT_URLCONF = 'esportsindex.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
-        'DIRS': ['templates'],
+        'DIRS': [BASE_DIR / 'templates']
+        ,
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -90,22 +81,10 @@ WSGI_APPLICATION = 'esportsindex.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'django',
-        'USER': 'django',
-        'PASSWORD': 'e714d1b713f9b3ede7f9ac1b2dcd0b5d',
-        'HOST': 'localhost',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
-
-#DATABASES = {
- #   'default': {
-  #      'ENGINE': 'django.db.backends.sqlite3',
-    #    'NAME': BASE_DIR / 'db.sqlite3',
-  #  }
-#}
 
 
 # Password validation
@@ -145,6 +124,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-#STATICFILES_DIRS = (
-#    os.path.join(BASE_DIR, 'static'),
-#)
