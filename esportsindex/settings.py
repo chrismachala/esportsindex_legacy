@@ -21,8 +21,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 
-LOGIN_URL = 'esi_users/register'
-LOGIN_REDIRECT_URL = 'esi_users/home'
+LOGIN_URL = 'login'
+#LOGIN_REDIRECT_URL = 'home'
 
 
 # SECURITY WARNING: keep the secret key used in production secret!
