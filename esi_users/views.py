@@ -22,11 +22,10 @@ def register_view(request):
         user.profile.first_name = form.cleaned_data.get('first_name')
         user.profile.last_name = form.cleaned_data.get('last_name')
         user.profile.email = form.cleaned_data.get('email')
-        user.profile.username = form.cleaned_data.get('email')
         user.save()
-        username = form.cleaned_data.get('email')
+        email = form.cleaned_data.get('email')
         password = form.cleaned_data.get('password1')
-        user = authenticate(username=username, password=password)
+        user = authenticate(username=email, password=password)
         login(request, user)
         return redirect('home')
     else:
@@ -54,12 +53,12 @@ def login_view(request):
     if request.method == 'POST':
         form = AuthenticationForm(request=request, data=request.POST)
         if form.is_valid():
-            username = form.cleaned_data.get('username')
+            email = form.cleaned_data.get('email')
             password = form.cleaned_data.get('password')
-            user = authenticate(username=username, password=password)
+            user = authenticate(username=email, password=password)
             if user is not None:
                 login(request, user)
-                messages.info(request, f"You are now logged in as {username}")
+                messages.info(request, f"You are now logged in as {email}")
                 return redirect('home')
             else:
                 messages.error(request, "Invalid username or password.")
