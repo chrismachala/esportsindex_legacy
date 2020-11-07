@@ -11,7 +11,7 @@ class Profile(models.Model):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
     email = models.EmailField(max_length=150)
-    credit = models.DecimalField(max_digits=6, decimal_places=2, default=0)
+    credit = models.DecimalField(max_digits=6, decimal_places=2, default=50)
 
     def __str__(self):
         return self.user.username

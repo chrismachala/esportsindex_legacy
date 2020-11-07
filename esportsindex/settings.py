@@ -20,6 +20,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
+
+LOGIN_URL = 'esi_users/register'
+LOGIN_REDIRECT_URL = 'esi_users/home'
+
+
 # SECURITY WARNING: keep the secret key used in production secret!
 #SECRET_KEY = '905tnbp%%2x5h+5bl)3ppb4d@oxo__=c%cnl%bdy^6tts1c2-1'
 SECRET_KEY = '54bb8e89e7b635432b745c602f776ddf'
