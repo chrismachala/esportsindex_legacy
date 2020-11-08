@@ -27,6 +27,8 @@
                 {% for asset in assets %}
                     {% if forloop.counter|divisibleby:4 %}
                         <div class="col-md-3">
+
+
                             <div class="card">
                                 <img class="card-img-top" href="" src="{{ asset.player.images.default }}"
                                      alt="Card image cap">
@@ -38,9 +40,9 @@
                                             data-form-url="{% url 'transaction_form' 'Buy' asset.player.id %}"
                                             type="button"
                                             name="button">
-                    <span class="icon text-white-50">
-                      <i class="fas fa-money"></i>
-                    </span>
+                                        <span class="icon text-white-50">
+                                             <i class="fas fa-money"></i>
+                                         </span>
                                         <span class="text">£{{ asset.value }}</span>
                                     </button>
 
@@ -48,9 +50,9 @@
                                             data-form-url="{% url 'transaction_form' 'Sell' asset.player.id %}"
                                             type="button"
                                             name="button">
-                    <span class="icon text-white-50">
-                      <i class="fas fa-money"></i>
-                    </span>
+                                        <span class="icon text-white-50">
+                                          <i class="fas fa-money"></i>
+                                        </span>
                                         <span class="text">£{{ asset.value }}</span>
                                     </button>
 
@@ -68,8 +70,11 @@
 
                                 </div>
                             </div>
+
+
                         </div>
                         </div>
+                          <br/>
                         <div class="row">
 
                     {% else %}
@@ -116,6 +121,8 @@
 
                                 </div>
                             </div>
+
+
                         </div>
 
 

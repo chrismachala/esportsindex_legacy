@@ -11,6 +11,7 @@ from django.urls import reverse_lazy, reverse
 from django import forms
 from django.core.validators import MaxValueValidator
 
+
 class TransactionView(BSModalFormView):
     template_name = 'esi_pricingengine/transaction_modal.html'
     form_class = BuyForm

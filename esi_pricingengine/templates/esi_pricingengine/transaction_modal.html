@@ -1,28 +1,43 @@
 <form method="post" action="">
-  {% csrf_token %}
+    {% csrf_token %}
 
- <div class="modal-header">
-    <h5 class="modal-title"> {{ ttype }} {{ asset.player.ign }} </h5>
-    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
+    <div class="modal-header">
+        <h5 class="modal-title"> {{ ttype }} {{ asset.player.ign }} </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
 
-  <div class="modal-body">
-    {% for field in form %}
-      <div class="form-group{% if field.errors %} invalid{% endif %}">
-        <label for="{{ field.id_for_label }}">{{ field.label }}</label>
-        {{ field }}
-        {% for error in field.errors %}
-          <p class="help-block">{{ error }}</p>
-        {% endfor %}
-      </div>
-    {% endfor %}
-  </div>
+    <div class="modal-body">
 
-  <div class="modal-footer">
-    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-    <button type="button" class="submit-btn btn btn-primary">{{ ttype }}</button>
-  </div>
+        <div class="form-group{% if form.volume.errors %} invalid{% endif %}">
+            <label for="{{ form.volume.id_for_label }}">{{ form.volume.label }}</label>
+            {{ form.volume }}
+            {% for error in form.volume.errors %}
+                <p class="help-block">{{ error }}</p>
+            {% endfor %}
+        </div>
+
+        {% if ttype == 'Buy' %}
+            <p>Sum to Pay : £<a id="value">0</a></p>
+        {% else %}
+            <p>Sum Received : £<a id="value">0</a></p>
+        {% endif %}
+
+    </div>
+
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="submit-btn btn btn-primary">{{ ttype }}</button>
+    </div>
 
 </form>
+
+<script>
+
+    $('#id_volume').on('input', function () {
+
+        $('#value').html($(this).val() *{{ asset.value }})
+    })
+
+</script>
